@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stock market education, market concepts and risk awareness by Gautam Ja.">
+  <title>Gautam Ja | Stock Market Learning</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #07111f;
+      color: #ffffff;
+      line-height: 1.7;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 8%;
+      border-bottom: 1px solid #243247;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .brand span {
+      color: #54e1cc;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 75px 20px 55px;
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .avatar {
+      width: 105px;
+      height: 105px;
+      border: 3px solid #54e1cc;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 25px;
+      background: #172b43;
+      color: #54e1cc;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    .eyebrow {
+      color: #54e1cc;
+      font-size: 12px;
+      letter-spacing: 3px;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: clamp(38px, 7vw, 62px);
+      line-height: 1.15;
+      margin: 18px 0;
+    }
+
+    h1 span {
+      color: #54e1cc;
+    }
+
+    .intro {
+      color: #b8c5d7;
+      max-width: 590px;
+      margin: 0 auto;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 14px 25px;
+      border-radius: 9px;
+      background: #54e1cc;
+      color: #07111f;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      background: #ffffff;
+      transform: translateY(-2px);
+    }
+
+    .section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 35px 22px 65px;
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 29px;
+      margin-bottom: 28px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      padding: 25px;
+      border: 1px solid #26384e;
+      border-radius: 15px;
+      background: #101e30;
+    }
+
+    .card .icon {
+      font-size: 27px;
+    }
+
+    .card h3 {
+      margin: 12px 0 8px;
+    }
+
+    .card p {
+      color: #b8c5d7;
+      font-size: 14px;
+    }
+
+    .notice {
+      text-align: center;
+      background: #101e30;
+      border: 1px solid #26384e;
+      padding: 25px;
+      border-radius: 15px;
+      margin-top: 25px;
+      color: #b8c5d7;
+      font-size: 13px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px 15px;
+      color: #8190a5;
+      border-top: 1px solid #243247;
+      font-size: 12px;
+    }
+
+    @media (max-width: 500px) {
+      nav { padding: 18px 5%; }
+      .hero { padding-top: 55px; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="brand">GAUTAM <span>JA.</span></div>
+    <div style="color:#b8c5d7;font-size:13px">
+      Market Learning
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div class="avatar">GJ</div>
+
+      <div class="eyebrow">LEARN • UNDERSTAND • GROW</div>
+
+      <h1>Understand the Market.<br>
+        <span>Learn with Confidence.</span>
+      </h1>
+
+      <p class="intro">
+        Welcome to Gautam Ja's learning space for stock market
+        basics, educational market analysis and risk awareness.
+        Build your knowledge one step at a time.
+      </p>
+
+      <!-- Replace the URL below with your real Telegram channel link -->
+      <a class="button"
+         href="https://t.me/YOUR_TELEGRAM_CHANNEL"
+         target="_blank"
+         rel="noopener noreferrer">
+        Join Our Telegram →
+      </a>
+    </section>
+
+    <section class="section">
+      <h2>What You'll Learn</h2>
+
+      <div class="cards">
+        <article class="card">
+          <div class="icon">📊</div>
+          <h3>Market Basics</h3>
+          <p>
+            Understand stocks, indices, charts and
+            essential market terminology.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="icon">📚</div>
+          <h3>Educational Analysis</h3>
+          <p>
+            Learn how to study market information and
+            understand different analytical concepts.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🛡️</div>
+          <h3>Risk Awareness</h3>
+          <p>
+            Explore market risks, responsible decisions
+            and the importance of protecting your capital.
+          </p>
+        </article>
+      </div>
+
+      <div class="notice">
+        <strong>Important Disclaimer</strong>
+        <p>
+          This website provides educational information only,
+          not personalized investment advice or guaranteed returns.
+          Stock market investments involve risk, including possible
+          loss of capital. Verify credentials before relying on
+          financial services.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Gautam Ja. All rights reserved.
+    <br>Stock market education and awareness.
+  </footer>
+</body>
+</html>
